@@ -1,3 +1,70 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "profile1",
+      "description": "User profile picture 1",
+      "imageUrl": "https://images.unsplash.com/photo-1540569014015-19a7be504e3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjM0NzE1OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "profile2",
+      "description": "User profile picture 2",
+      "imageUrl": "https://images.unsplash.com/photo-1536785438246-08198ab7dd6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXJzb24lMjBzbWlsZXxlbnwwfHx8fDE3NjM1MTM0MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person smile"
+    },
+    {
+      "id": "profile3",
+      "description": "User profile picture 3",
+      "imageUrl": "https://images.unsplash.com/photo-1579503841516-e0bd7fca5faa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMGZhY2V8ZW58MHx8fHwxNzYzNDcxMTU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman face"
+    },
+    {
+      "id": "profile4",
+      "description": "User profile picture 4",
+      "imageUrl": "https://images.unsplash.com/photo-1624395213081-608f51284ddd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBmYWNlfGVufDB8fHx8MTc2MzU0MjQxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man face"
+    },
+    {
+      "id": "event1",
+      "description": "Robotics workshop event banner",
+      "imageUrl": "https://images.unsplash.com/photo-1604320233280-75d54bc1c22e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cm9ib3RpY3MlMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc2MzU3MzI0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robotics technology"
+    },
+    {
+      "id": "event2",
+      "description": "AI hackathon event banner",
+      "imageUrl": "https://images.unsplash.com/photo-1558986377-c44f6a2b50f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb2RlJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzYzNTY3OTY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "code abstract"
+    },
+    {
+      "id": "event3",
+      "description": "IoT seminar event banner",
+      "imageUrl": "https://images.unsplash.com/photo-1631375937044-6dd5beac01d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaXJjdWl0JTIwYm9hcmR8ZW58MHx8fHwxNzYzNTM0MTA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "circuit board"
+    },
+    {
+      "id": "resource1",
+      "description": "Learning resource on Python",
+      "imageUrl": "https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxweXRob24lMjBjb2RlfGVufDB8fHx8MTc2MzU2MjkzNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "python code"
+    },
+    {
+      "id": "resource2",
+      "description": "Learning resource on C++",
+      "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9ncmFtbWluZyUyMGxhbmd1YWdlfGVufDB8fHx8MTc2MzQ5MzA4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "programming language"
+    },
+    {
+      "id": "team_bg1",
+      "description": "Team background gradient 1",
+      "imageUrl": "https://images.unsplash.com/photo-1707130869369-c00812966290?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMGdyYWRpZW50fGVufDB8fHx8MTc2MzU1NjAyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract gradient"
+    },
+    {
+      "id": "team_bg2",
+      "description": "Team background gradient 2",
+      "imageUrl": "https://images.unsplash.com/photo-1601408993947-6ef9e7a1ed97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwYXN0ZWwlMjBjb2xvcnxlbnwwfHx8fDE3NjM1NzMyNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pastel color"
+    }
+  ]
 }
