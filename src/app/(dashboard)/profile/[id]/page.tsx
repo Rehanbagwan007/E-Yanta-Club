@@ -10,6 +10,7 @@ import { ProgressCard } from "@/components/progress/progress-card";
 import { EventCard } from "@/components/events/event-card";
 import { useParams } from "next/navigation";
 import type { User } from "@/types";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 function DynamicProfileHeader({ user }: { user: User }) {
   const getInitials = (name: string) => {
