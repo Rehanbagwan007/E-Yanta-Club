@@ -16,16 +16,17 @@ import { useRouter } from "next/navigation";
 import { useAuth } from "@/hooks/use-auth";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import type { UserRole } from "@/types";
+import { useState } from "react";
 
 export default function LoginPage() {
   const router = useRouter();
   const { login } = useAuth();
+  const [role, setRole] = useState<UserRole>("member");
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    const role = (e.target as any).role.value;
     if (role) {
-      login(role as UserRole);
+      login(role);
       router.push("/dashboard");
     }
   };
@@ -50,7 +51,7 @@ export default function LoginPage() {
           </div>
           <div className="space-y-2">
             <Label htmlFor="role">Role (for demo)</Label>
-            <Select name="role" defaultValue="member">
+            <Select name="role" value={role} onValueChange={(value) => setRole(value as UserRole)}>
               <SelectTrigger id="role">
                 <SelectValue placeholder="Select a role" />
               </SelectTrigger>

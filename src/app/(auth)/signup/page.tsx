@@ -25,7 +25,7 @@ export default function SignupPage() {
               Become part of our growing community. Participate in events, access resources, and learn with us.
             </CardDescription>
             <Button asChild className="w-fit">
-              <Link href="#">Apply Now <ArrowRight className="ml-2" /></Link>
+              <Link href="/signup/apply">Apply Now <ArrowRight className="ml-2" /></Link>
             </Button>
           </CardHeader>
         </Card>
@@ -40,7 +40,7 @@ export default function SignupPage() {
               Ready to lead? Join the core team to manage projects, organize events, and shape the future of the club.
             </CardDescription>
             <Button asChild className="w-fit">
-              <Link href="#">Apply Now <ArrowRight className="ml-2" /></Link>
+              <Link href="/signup/apply">Apply Now <ArrowRight className="ml-2" /></Link>
             </Button>
           </CardHeader>
         </Card>
