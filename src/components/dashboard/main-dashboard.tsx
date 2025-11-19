@@ -7,6 +7,7 @@ import { VpDashboard } from "./vp-dashboard";
 import { CoreMemberDashboard } from "./core-member-dashboard";
 import { GeneralMemberDashboard } from "./general-member-dashboard";
 import { WelcomeBanner } from "./welcome-banner";
+import { Skeleton } from "../ui/skeleton";
 
 export function MainDashboard() {
   const { user } = useAuth();
@@ -24,7 +25,17 @@ export function MainDashboard() {
       case "member":
         return <GeneralMemberDashboard />;
       default:
-        return <div>Invalid user role.</div>;
+        return (
+          <div>
+            <Skeleton className="h-24 w-full mb-8" />
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+              <Skeleton className="h-32 w-full" />
+              <Skeleton className="h-32 w-full" />
+              <Skeleton className="h-32 w-full" />
+              <Skeleton className="h-32 w-full" />
+            </div>
+          </div>
+        );
     }
   };
 
