@@ -45,6 +45,7 @@ export default function SignupPage() {
           </CardHeader>
         </Card>
       </div>
+      
        <p className="text-sm text-muted-foreground text-center mt-8">
             Already a member?{" "}
             <Link href="/login" className="text-primary hover:underline">
