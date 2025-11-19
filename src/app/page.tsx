@@ -27,7 +27,7 @@ export default function Home() {
           </div>
           <div className="relative z-10 bg-card/80 backdrop-blur-sm p-8 rounded-2xl shadow-soft">
             <h1 className="text-5xl md:text-7xl font-bold mb-4">
-              Welcome to <span className="text-gradient">E-Vision Hub</span>
+              Welcome to <span className="text-gradient">E-Yantra PVPIT</span>
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto">
               The official E-Yantra Club Management System for PVPIT Budhgaon.
@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </main>
       <footer className="p-4 text-center text-muted-foreground text-sm">
-        © {new Date().getFullYear()} E-Vision Hub. All Rights Reserved.
+        © {new Date().getFullYear()} E-Yantra PVPIT. All Rights Reserved.
       </footer>
     </div>
   );

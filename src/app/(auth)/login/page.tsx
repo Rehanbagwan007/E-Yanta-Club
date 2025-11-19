@@ -36,7 +36,7 @@ export default function LoginPage() {
       <CardHeader className="text-center">
         <CardTitle className="text-2xl">Welcome Back!</CardTitle>
         <CardDescription>
-          Sign in to access your E-Vision Hub dashboard.
+          Sign in to access your E-Yantra PVPIT dashboard.
         </CardDescription>
       </CardHeader>
       <form onSubmit={handleLogin}>

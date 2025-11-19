@@ -18,7 +18,7 @@ const ptSans = PT_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "E-Vision Hub",
+  title: "E-Yantra PVPIT",
   description: "E-Yantra Club Management System for PVPIT Budhgaon",
 };
 

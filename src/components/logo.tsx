@@ -8,7 +8,7 @@ const Logo = () => {
         <Dna className="text-primary" />
       </div>
       <span className="font-headline text-xl font-semibold text-foreground">
-        E-Vision Hub
+        E-Yantra PVPIT
       </span>
     </Link>
   );
