@@ -1,5 +1,6 @@
 import { StatCard } from "./stat-card";
 import { Users, BarChart, Calendar, Target } from "lucide-react";
+import { MemberManagement } from "./member-management";
 
 export function FacultyDashboard() {
   return (
@@ -12,8 +13,7 @@ export function FacultyDashboard() {
         <StatCard title="Upcoming Events" value="3" icon={Calendar} />
       </div>
       <div className="mt-8">
-        {/* Placeholder for Profile Inspection and Role Promotion modals */}
-        <p className="text-muted-foreground">Member management and data overview sections will be displayed here.</p>
+        <MemberManagement />
       </div>
     </div>
   );

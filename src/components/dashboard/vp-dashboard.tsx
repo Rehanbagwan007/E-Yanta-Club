@@ -1,5 +1,6 @@
 import { StatCard } from "./stat-card";
 import { CheckCircle, Calendar, Mic } from "lucide-react";
+import { MemberManagement } from "./member-management";
 
 export function VpDashboard() {
   return (
@@ -11,8 +12,7 @@ export function VpDashboard() {
         <StatCard title="Announcements Sent" value="7" icon={Mic} />
       </div>
       <div className="mt-8">
-        {/* Placeholder for announcement tools and event cards */}
-        <p className="text-muted-foreground">Progress approval lists and announcement tools will be displayed here.</p>
+        <MemberManagement />
       </div>
     </div>
   );
